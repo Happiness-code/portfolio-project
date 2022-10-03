@@ -1,43 +1,47 @@
-:root{
-    --branding-color: #6c63ff;
-    --heading-font-family: "playfair display",serif;
-    --default-font-fammily:"poppins",sans-serif;
-    --secodary-color: #e9dfff;
+:root {
+  --branding-color: #6c63ff;
+  --heading-font-family: "playfair display", serif;
+  --default-font-fammily: "poppins", sans-serif;
+  --secodary-color: #e9dfff;
 }
 
-
-h1{
-    font-family: var(--heading-font-family);
-    font-weight: bold;
-    font-size: 96px;
+h1 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 96px;
 }
-.hero p{
-    font-family: var(--default-font-fammily);
-    font-weight: normal;
-    font-size: 36px;
-    margin: 0;
-    color:#272142;
+.hero p {
+  font-family: var(--default-font-fammily);
+  font-weight: normal;
+  font-size: 36px;
+  margin: 0;
+  color: #272142;
 }
-.hero h2{
-   font-family: var(--default-font-fammily);
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 2;
+.hero h2 {
+  font-family: var(--default-font-fammily);
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
 }
-.hero{
-    background-color:var(--secodary-color);
-    text-align: center;
-    padding: 160px 20px;
+.hero {
+  background-color: var(--secodary-color);
+  text-align: center;
+  padding: 160px 20px;
 }
 .btn-branding {
-    background-color: var(--branding-color);
-    border-radius: 4px;
-    color: #e9dfff;
-    font-size: 18px;
-    padding: 15px 30px;
-    line-height: 27px;
-    transition: ease-in-out 200ms;
+  background-color: var(--branding-color);
+  border-radius: 4px;
+  color: #e9dfff;
+  font-size: 18px;
+  padding: 15px 30px;
+  line-height: 27px;
+  transition: ease-in-out 200ms;
 }
-h2{
-    font-size: 64px;
+h2 {
+  font-size: 64px;
+}
+p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
 }
