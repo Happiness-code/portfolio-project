@@ -9,6 +9,7 @@ h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 96px;
+  line-height: 1.5;
 }
 .hero p {
   font-family: var(--default-font-fammily);
@@ -63,6 +64,13 @@ p {
     text-align: center;
   }
   h1{
-    font-size: 50px;
+    font-size: 44px;
+    line-height: 2;
+  }
+  h2{
+    font-size: 42px;
+  }
+  .hero{
+    padding: 70px 20px;
   }
 }
