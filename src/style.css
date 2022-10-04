@@ -1,8 +1,8 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #d82dc7;
   --heading-font-family: "playfair display", serif;
   --default-font-fammily: "poppins", sans-serif;
-  --secodary-color: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+  --secodary-color: #ffdff8;
 }
 
 h1 {
@@ -36,6 +36,7 @@ h1 {
   font-size: 18px;
   padding: 15px 30px;
   line-height: 27px;
+
 }
 h2 {
   font-size: 64px;
@@ -52,43 +53,47 @@ p {
   font-size: 18px;
   padding: 15px 30px;
   line-height: 27px;
+  
 }
-.project-descrition {
+.project-descrition{
   padding: 120px 60px;
 }
-@media (max-width: 900px) {
-  .project-descrition {
+@media(max-width:900px) {
+  .project-descrition{
     padding: 0;
     text-align: center;
   }
-  h1 {
+  h1{
     font-size: 44px;
     line-height: 2;
   }
-  h2 {
+  h2{
     font-size: 42px;
   }
-  .hero {
+  .hero{
     padding: 70px 20px;
   }
 }
-@media (max-width: 900px) {
-  .about-section {
-    text-align: center;
-    padding: 0;
+@media (max-width:900px) {
+  .about-section{
+ text-align: center;
+  padding: 0;
   }
+  
 }
-.about-section {
+.about-section{
   padding: 160px 20px;
+
 }
-.about-section h1 {
+.about-section h1{
   font-size: 60px;
   line-height: 70px;
+
 }
-.about-section h2 {
+.about-section h2{
   font-size: 18px;
   font-family: var(--default-font-fammily);
 }
-.about-section-content {
-  margin: 30px;
+.about-section-content{ 
+ margin: 30px;
 }
