@@ -35,7 +35,7 @@ h1 {
   font-size: 18px;
   padding: 15px 30px;
   line-height: 27px;
-  transition: ease-in-out 200ms;
+
 }
 h2 {
   font-size: 64px;
@@ -48,10 +48,18 @@ p {
 .btn-branding-outline {
   color: var(--branding-color);
   border-radius: 4px;
-  border-radius: 1px solid var(--branding-color);
+  border: 1px solid var(--branding-color);
   font-size: 18px;
   padding: 15px 30px;
   line-height: 27px;
   
 }
-.project-
+.project-descrition{
+  padding: 120px 60px;
+}
+@media(max-width:900px) {
+  .project-descrition{
+    padding: 0;
+    text-align: center;
+  }
+}
