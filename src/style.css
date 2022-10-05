@@ -97,7 +97,13 @@ p {
 .content h3{
   font-size: 24px;
   font-family: var(--default-font-fammily);
+  line-height: 1;
+  margin-top: 20px 0 0;
+}
+.content p{
+  font-size: 14px;
 }
 .content{ 
  margin: 30px;
+ text-align: center;
 }
