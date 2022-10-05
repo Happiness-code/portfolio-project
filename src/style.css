@@ -85,13 +85,17 @@ p {
   padding: 160px 20px;
 
 }
-.about-section h1{
+.content h1{
   font-size: 60px;
   line-height: 70px;
 
 }
-.about-section h2{
+.content h2{
   font-size: 18px;
+  font-family: var(--default-font-fammily);
+}
+.content h3{
+  font-size: 24px;
   font-family: var(--default-font-fammily);
 }
 .content{ 
