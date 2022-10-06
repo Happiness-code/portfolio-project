@@ -112,7 +112,7 @@ p {
 h4{
   border: 1px solid var(--branding-color);
   padding: 15px;
-  
+  font-family: var(--heading-font-family);
 }
 nav {
     padding: 20px 0;
