@@ -107,3 +107,27 @@ p {
  margin: 30px;
  text-align: center;
 }
+h4{
+  border: 1px solid var(--branding-color);
+  padding: 15px;
+  
+}
+nav {
+    padding: 20px 0;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+nav a:hover, nav li.active a {
+    color: var(--branding-color);
+}
+nav a {
+    text-decoration: none;
+    color: #272142;}
