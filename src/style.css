@@ -133,3 +133,12 @@ nav a:hover, nav li.active a {
 nav a {
     text-decoration: none;
     color: #272142;}
+    .email-link{
+      text-decoration: none;
+      text-align: center;
+      font-size: 24px;
+      color: #000;
+    }
+    .email:hover{
+      color:var(--branding-color)
+    }
