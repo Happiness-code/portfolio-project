@@ -125,6 +125,9 @@ h4{
   padding: 15px;
   font-family: var(--heading-font-family);
 }
+h5{
+  font-size: 48px;
+}
 nav {
     padding: 20px 0;
 }
@@ -148,6 +151,15 @@ nav a {
     footer{
       margin: 60px 0 ;
     }
+    .contact-box{
+      background-color: var(--secodary-color);
+      padding: 30px;
+      border-radius: 10px;
+    }
+    .contact-box p{
+margin: 0;
+    }
+
     .email-link{
       text-decoration: none;
       text-align: center;
