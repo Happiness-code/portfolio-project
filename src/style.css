@@ -156,6 +156,10 @@ nav a {
       
 
     }
+    .social-link{
+      color: var(--branding-color);
+      font-size: 18px;
+    }
     .social-link:hover{
       color: white;
       background-color: var(--branding-color);
